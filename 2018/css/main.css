@@ -1,0 +1,161 @@
+body, html{
+   
+   height: calc(100% - 2em);
+   margin: 0;  
+   font-family: 'Algerian' ;
+
+}
+
+body {
+background-color: red;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ }
+
+ aside{
+    color: yellow;
+    display: grid;
+    grid-template-columns: auto 40px;
+   padding: 2em;
+ }
+ img{
+    width: 40px;
+    cursor:pointer;
+ }
+
+ figure {
+    margin: 0;
+ }
+ figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+ }
+
+ nav{
+    background: white;
+
+ }
+
+ .active{
+    position: absolute;
+    display: block;
+    background: white;
+    width: 50%;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+
+ }
+
+ ul {
+    display: none;
+    list-style-type: none;
+   margin:0;
+   padding: 0;
+   }
+
+   ul li a {
+      text-decoration:none;
+      text-transform: uppercase;
+      font-size: .8em  ;
+      display :block;
+      padding: 1.5em 3em;
+   background: rgba(255,255,255,.35); 
+   color: black;      
+   }
+
+   main{
+      background: white;
+      padding: 1em 1.4em;
+   }
+   h1 {
+      font-size: 1.1em;
+      line-height: 1.5em;
+   }
+   
+   .cta{
+      display: block;
+      color: white;
+      background:red;
+      text-decoration: none;
+      padding:8px 50px;
+      font-size: 1.2em;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 4px;
+      margin: 2em 0;
+
+
+   }
+ @media  only screen and (min-width:768px){
+
+   body{
+      display: grid;
+      grid-template-columns: 20% auto;
+      padding: 2em;
+
+
+   }
+   img{
+      display: none;
+
+   }
+
+   aside {
+      background:red;
+      grid-template-columns: auto;
+      grid-template-rows: 20% auto;
+      padding: 0;
+
+   }
+   main{
+      padding: 4em;
+      background: white url('../images/bg.svg') no-repeat bottom right;
+      background-size:  70%;
+
+
+
+
+   }
+   #RDX {
+      border-radius: 50%;
+      background: white;
+      width: 50px;
+      height: 50px;
+      margin: 2em auto 1em auto;
+   }
+   figcaption {
+      text-align: center;
+      color: black;
+
+   }
+ul{
+   display: block;
+   margin-top: 2em;
+   position: relative !important;
+   background: none !important;
+   width: 100% !important;
+}
+nav {
+   background: none;
+}
+.cta{
+   display: inline-block;
+   font-size: 1.3em;
+   padding: .8em  3em;
+
+}
+   h1{
+      font-size: 3EM;
+      margin-top: 2em;
+
+   }
+p{
+   font-size:1.5em;
+   
+}
+}
+
+
+
+
